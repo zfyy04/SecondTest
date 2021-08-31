@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-08-31T14:19:16.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="dvntF1uZUc0w7T4m7P1H" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-31T14:24:31.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="KySCKWStciNYqUVnS5cv" version="15.0.3" type="github">
   <diagram id="Jm8AbhTh9HR1tHQFC9yH" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -133,8 +133,8 @@
         <mxCell id="vB_P8vEvLiJKS9wR8KCA-44" value="修饰的内存如果发生改变，会通知所有使用了此变量的所有CPU，以获取最新的内存" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="772.5" width="200" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="vB_P8vEvLiJKS9wR8KCA-47" value="&lt;h1&gt;问题：&lt;/h1&gt;&lt;p&gt;读取内存到L缓存时如何读取？&lt;/p&gt;&lt;p&gt;缓存行批量读取，并不是只读你要的数据&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="870" width="190" height="120" as="geometry" />
+        <mxCell id="vB_P8vEvLiJKS9wR8KCA-47" value="&lt;h1&gt;问题：&lt;/h1&gt;&lt;p&gt;读取内存到L缓存时如何读取？&lt;/p&gt;&lt;p&gt;缓存行批量读取，并不是只读你要的数据。按照标准，一个缓存行64字节(byte)。所以每次读取至少64byte。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="870" width="960" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
